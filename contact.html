@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Youri Bouw </title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/project.css">
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu logo__fon">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/lagatip.png"width="153" height="72" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="ti-menu"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Thuis</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">Over</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">diensten</a>
+                                </li> 
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pagina's
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="project.html">project</a>
+                                        <a class="dropdown-item" href="project_details.html">
+                                         projectdetails</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="d-none d-lg-block">
+                                    <a class="btn_1" href="contact.html#contact">Stuur een brief</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+     
+    <!-- breadcrumb start-->
+    <section class="breadcrumb breadcrumb_bg align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                    <div class="breadcrumb_tittle text-left">
+                        <h2>contact</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb start-->
+
+
+  <!-- ================ contact section start ================= -->
+ <section id="contact" class="contact-section section_padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="contact-title">Neem contact op</h2>
+      </div>
+
+      <div class="col-lg-8">
+        <!-- Форма отправляет на contact_process.php -->
+       <form action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+  <!-- 🔑 Твой уникальный ключ Web3Forms -->
+  <input type="hidden" name="access_key" value="dcf87982-3d56-4a8f-a0ac-fc1a046040af">
+
+  <!-- Куда придут письма -->
+  <input type="hidden" name="to" value="info@youribouw.nl">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <textarea class="form-control w-100" name="message" cols="30" rows="9" 
+          placeholder="Voer bericht in" required></textarea>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <input class="form-control" name="name" type="text" 
+          placeholder="Voer uw naam in" required>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <input class="form-control" name="email" type="email" 
+          placeholder="Voer een e-mailadres in" required>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-group">
+        <input class="form-control" name="subject" type="text" 
+          placeholder="Voer Onderwerp in" required>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group mt-3">
+    <button type="submit" class="button button-contactForm btn_1">
+      Bericht verzenden
+    </button>
+  </div>
+</form>
+
+
+        <!-- Вывод результата AJAX / ошибок -->
+        <div id="result" role="status" aria-live="polite"></div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="media contact-info">
+          <span class="contact-info__icon"><i class="ti-home"></i></span>
+          <div class="media-body">
+            <h3>Rotterdam, Nederland.</h3>
+            <p>Rotterdam, 3172VB</p>
+          </div>
+        </div>
+        <div class="media contact-info">
+          <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+          <div class="media-body">
+            <h3>0641413410</h3>
+            <p>Maandag t/m vrijdag van 9.00 tot 18.00 uur</p>
+          </div>
+        </div>
+        <div class="media contact-info">
+          <span class="contact-info__icon"><i class="ti-email"></i></span>
+          <div class="media-body">
+            <h3>info@youribouw.nl</h3>
+            <p>Stuur ons gerust uw vraag!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- ================ Карта Rotterdam ================= -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+
+      <!-- Разделительная линия сверху -->
+      <hr style="margin:40px 0 20px; border:0; border-top:1px solid #ddd;">
+
+      <!-- Заголовок -->
+      <h3 style="text-align:center; margin-bottom:20px; font-weight:600; color:#333;">
+        Kaart Rotterdam
+      </h3>
+
+      <!-- Карта -->
+      <div class="map-full-wrapper">
+        <iframe
+          src="https://www.google.com/maps?q=Rotterdam,+Nederland&output=embed"
+          title="Rotterdam map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+
+      <!-- Разделительная линия снизу -->
+      <hr style="margin:20px 0 40px; border:0; border-top:1px solid #ddd;">
+
+    </div>
+  </div>
+</div>
+
+<style>
+  .map-full-wrapper {
+    width: 100%;
+    height: 260px;            /* высота на десктопе */
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    background: #e9eff3;
+  }
+
+  .map-full-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+
+  /* Адаптив */
+  @media (max-width: 991.98px) {
+    .map-full-wrapper { height: 300px; }
+  }
+
+  @media (max-width: 575.98px) {
+    .map-full-wrapper { height: 340px; }
+  }
+</style>
+<!-- ================ end Карта Rotterdam ================= -->
+
+
+<!-- footer part start-->
+  <footer class="banner_text_iner footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget footer_1">
+                        <a href="index.html"> <img src="img/logo2.png" alt=""> </a>
+                        <p>Bouwen begint met een visie, groeit met samenwerking, staat stevig op funderingen, beschermt gezinnen tegen stormen, schept ruimte voor dromen, verbindt mensen, geeft warmte, kracht en zekerheid, en laat een erfenis voor komende generaties achter</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Beste diensten</h4>
+                        <div class="contact_info">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Thuis</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">Over</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Diensten</a>
+                                </li>
+                                <li>
+                                    <a href="project_details.html">Pagina's</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contacten</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>OnzeGalerij</h4>
+                        <div class="footer_img">
+                            <a href="project.html#project"><img src="img/footer_img/footer1.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer2.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer3.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer4.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer5.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer6.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer7.jpeg" alt=""></a>
+                            <a href="project.html#project"><img src="img/footer_img/footer8.jpeg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Contactgegevens</h4>
+                        <div class="contact_info"> 
+                            <p>Rotterdam, Nederland, 3172VB</p>
+                            <p><span> Kamer van Koophandel:</span> KVK-nummer: 67223648 </p>
+                            <p><span>Telefoon: </span>  0641413410</p>
+                            <p><span> E-mail:  </span> info@youribouw.nl </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright_part_text text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- footer part end-->
+
+<!-- jquery plugins here-->
+<!-- jquery -->
+<script src="js/jquery-1.12.1.min.js"></script>
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- easing js -->
+<script src="js/jquery.magnific-popup.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.min.js"></script>
+<!-- isotope js -->
+<script src="js/isotope.pkgd.min.js"></script>
+<!-- particles js -->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<!-- swiper js -->
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+</body>
+
+</html>
